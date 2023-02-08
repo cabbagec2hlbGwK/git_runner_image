@@ -1,2 +1,3 @@
 # git_runner_image
-![include](https://github.com/cabbagec2hlbGwK/jenkins_test/blob/main/README.md)
+---
+[![Docker Image CI](https://github.com/cabbagec2hlbGwK/git_runner_image/actions/workflows/docker-image.yml/badge.svg)](https://github.com/cabbagec2hlbGwK/git_runner_image/actions/workflows/docker-image.yml)
