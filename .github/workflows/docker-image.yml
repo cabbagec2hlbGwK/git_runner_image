@@ -16,10 +16,5 @@ jobs:
     - uses: actions/checkout@v3
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag cabby/runner:$(date +%s)
-    - name: Check build status
-      run: |
-        if [ $? -ne 0 ]; then
-          echo "fail"
-          exit 1
-        fi
-        echo "test" > status.md
+
+  
